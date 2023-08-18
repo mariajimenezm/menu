@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu interactivo</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+
+    
+</head>
+<body>
+
+
+    <nav class="sidebar">
+        <a href="#" class="logo">Bienvenido </a>
+  
+        <div class="menu-content">
+          <ul class="menu-items">
+            <div  class="menu-title">
+                <i class="fa-solid fa-house-chimney"></i> Administrador
+            </div>
+  
+            <li class="item">
+              <a href="#">Elemento A</a>
+            </li>
+
+            <li class="item">
+                <a href="#">Elemento B</a>
+              </li>
+
+
+            <li class="item">
+              <div class="submenu-item">
+                <span>Elemento C</span>
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+  
+              <ul class="menu-items submenu">
+                <div class="menu-title">
+                  <i class="fa-solid fa-chevron-left"></i>
+                  Elemento C
+                </div>
+                <li class="item">
+                  <a href="#">Elemento C-1</a>
+                </li>
+                <li class="item">
+                  <a href="#">Elemento C-2</a>
+                </li>
+                <li class="item">
+                  <a href="#">Elemento C-3</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  
+      <nav class="navbar">
+        <i class="fa-solid fa-bars" id="sidebar-close"></i>
+      </nav>
+  
+      <main class="main">
+        <h1>Panel de tarea</h1>
+      </main>
+  
+      <script src="js.js"></script>
+    
+
+
+</body>
+</html>
